@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: innovad/devopsazure:latest
+          tags: mosazhaw/devopsazure:latest
 
   deploy:
     permissions:
